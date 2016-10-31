@@ -1,0 +1,8 @@
+Debug/
+/output.txt
+/output2.txt
+/output3.txt
+*.vcxproj
+*.filters
+*.exe
+*.xml
