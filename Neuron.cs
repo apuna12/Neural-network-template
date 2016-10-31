@@ -41,7 +41,7 @@ namespace NN
             weights[len] += delta * gamma; 
         }
 
-        public Neuron(Neuron[] layer, Random r)
+        public Neuron(Neuron[] layer, ref Random r)
         {
             if (layer != null)
             {
@@ -55,8 +55,5 @@ namespace NN
             else
                 weights = null;
         }
-
-
-
     }
 }

@@ -15,6 +15,9 @@ namespace NN
         public Form1()
         {
             InitializeComponent();
+            int[] size = {3, 4, 1};
+            Network net = new Network(3, size, 0.3);
+            int a = 6;
         }
     }
 }
