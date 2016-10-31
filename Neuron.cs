@@ -9,7 +9,7 @@ namespace NN
     class Neuron
     {
         private Neuron[] previous_layer;
-        private double[] weights;
+        public double[] weights;
         public double input;
         public double output;
         public double delta;
